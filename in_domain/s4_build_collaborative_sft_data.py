@@ -27,7 +27,7 @@ def load_sasrec_sims(dataset):
             anchor = parts[0]
             # Store top 5 similar items for SFT to keep length reasonable
             # The file has 20, but we can't output all of them with meta info
-            similar_items = parts[1:5]
+            similar_items = parts[1:6]
             sims[anchor] = similar_items
     return sims
 
