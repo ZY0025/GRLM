@@ -1,5 +1,10 @@
 <h1 align='center'>Unleashing the Native Recommendation Potential: LLM-Based Generative Recommendation via Structured Term Identifiers</h1>
 
+<p align="center">
+  <a href="[https://arxiv.org/abs/2601.06798](https://arxiv.org/abs/2601.06798)"><img src="https://img.shields.io/badge/Paper-ArXiv-b31b1b?logo=arxiv" alt="arXiv"></a>
+    <a href="https://github.com/ZY0025/GRLM"><img src="https://img.shields.io/badge/GitHub-GRLM-black?logo=github" alt="GitHub"></a>
+</p>
+
 ## Introduction
 
 This is the official open-source repository for the paper **"Unleashing the Native Recommendation Potential: LLM-Based Generative Recommendation via Structured Term Identifiers"**, which aims to build **LLM-based, general-purpose, and semantically-aware** recommendation systems. Our method has been applied to the text-augmented itemic tokens strategy of [OpenOneRec](https://github.com/Kuaishou-OneRec/OpenOneRec) and has achieved improved results.
