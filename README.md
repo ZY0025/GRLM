@@ -101,7 +101,7 @@ Return to the `GRLM/in_domain` folder and run `s5_beauty_eval.py` to begin model
 
 ## Final Notes
 
-- **TIDs Collision:** Thanks to the [issue](https://github.com/ZY0025/GRLM/issues/1) raised by Luo-Jiaming, Term IDs can also experience collisions. However, the collision rate remains relatively low (around 2-3% in our datasets). As dataset size increases, the TIDs collision rate tends to stay within this range.
+- **TIDs Collision:** Thanks to the [issue](https://github.com/ZY0025/GRLM/issues/1), Term IDs can also experience collisions. However, the collision rate remains relatively low (around 2-3% in our datasets). As dataset size increases, the TIDs collision rate tends to stay within this range.
 - **Distribution of TIDs:** An interesting phenomenon occurs during Term ID generation. For example, in the Beauty dataset, using an LLM to extract Term IDs directly yields around **4,000 unique IDs**. However, when context-aware extraction is introduced, this number rises to approximately **7,500**, and performance improves. This contrasts with traditional statistical recommendation systems, where higher frequency of similar patterns is typically favored.
 
 As a basic work, **GRLM's potential is far from fully realized**. Improvements in Term ID generation, optimization of fine-tuning tasks, or even simple adjustments to training scripts can lead to noticeable gains in performance metrics. Our codebase includes several optimizations introduced after the paper's publication, such as incorporating explicit collaborative signals as a new training task and refining the training scripts. We are considering to include these in an updated version of the paper.
