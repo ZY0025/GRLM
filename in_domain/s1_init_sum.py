@@ -70,7 +70,7 @@ def prepare_prompt(item, top_similar_items, all_items_dict):
                 if len(similar_desc) > 150:
                     similar_info += f" Description: {similar_desc[:150]}..."
                 else:
-                    description_text = f"Description: {similar_desc}"
+                    similar_info += f"Description: {similar_desc}"
             similar_items_info.append(similar_info)
     
     similar_items_text = "\n".join(similar_items_info)
